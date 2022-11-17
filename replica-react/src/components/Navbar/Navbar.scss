@@ -1,0 +1,53 @@
+@import '../Scss/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,400;1,600&display=swap');
+@import '../Scss/resets.scss';
+
+.container-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: $color-background;
+    width: 100%;
+    height: 90px;
+    
+
+        .marca{
+            width: 50%;
+            display: flex;
+            align-self: center;
+
+            .pictureLogo{
+                margin-left: 10px;
+            }
+
+            .title{
+                display: flex;
+                align-items: center;
+                margin-left: 5px;
+                h1{
+                    font-weight: 300;
+                    font-size: 18px;
+                    font-family: 'Poppins', sans-serif;
+                    color: white;
+                }
+            }
+        }
+
+        .btnNav{
+            display: flex;
+            justify-content: center;
+            width: 40%;
+            align-items: center;
+            .navElement{
+                margin: 10px;
+                color: white;
+                font-weight: 300;
+                
+            }
+        }
+}
+
+.container-nav:hover{
+    background-color: $color-navhover;
+}

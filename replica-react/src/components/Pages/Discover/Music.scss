@@ -1,0 +1,46 @@
+@import '../../Scss/resets.scss';
+@import '../../Scss/variables.scss';
+
+.discoverContainer{
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    margin: auto;
+        h1{
+            color: white;
+            font-weight: 300;
+            font-size: 40px;
+            width: 100%;
+        }
+        .iconContainer{
+            display: flex;
+            cursor: pointer;
+            .item{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 90px;
+                height: 90px;
+                color: white;
+                margin: auto;
+                background-color: $color-varios;
+                font-weight: 200;
+                img{
+                    width: 30px;
+                }
+            }
+        }
+        p{
+            margin-top: 10px;
+        }
+        .coversPicture{
+            width: 65%;
+            margin: auto;
+            margin-top: 16px;
+        }
+}
+
+.iconContainer:hover{
+    background-color: $color-borderinput;
+}

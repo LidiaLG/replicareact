@@ -1,0 +1,22 @@
+@import '../Scss/variables.scss';
+
+*{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: $color-background;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    color:white;
+}
+
+p{
+    color: white;
+}

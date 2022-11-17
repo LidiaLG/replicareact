@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,400;1,600&display=swap');
+@import '../../Scss/variables.scss';
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 65%;
+    margin-top: 45%;
+    margin-left: 30px;
+    
+        h1{
+            color: white;
+            font-weight: 350;
+            font-size: 50px;
+            font-family:'Poppins', sans-serif ;
+        }
+        p{
+            color: white;
+            font-size: 15px;
+            font-weight: 350;
+        }
+        .joinBtn{
+            width: 35%;
+            margin-top: 20px;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: $color-button;
+            border: none;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            font-size: 11px;
+            cursor: pointer;
+        }
+
+        .joinBtn:hover{
+            background-color: $color-btnhover;
+        }
+}
