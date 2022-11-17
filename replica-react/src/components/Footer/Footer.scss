@@ -9,7 +9,8 @@
     align-items: center;
     width: 100%;
     height: 70px;
-    margin-top: 3%;
+    position: fixed;
+    bottom: 0;
     background-color: $color-varios;
         .itemFooter{
             display: flex;
@@ -18,9 +19,12 @@
             margin: auto;
             font-family: 'Poppins', sans-serif;
             color: white;
+            cursor: pointer;
         }
         .pictureIcons{
             width: 25px;
             margin:auto;
         }
 }
+
+//ponemos el position: fixed; y el bottom: 0; para que se nos quede siempre el footer abajo
