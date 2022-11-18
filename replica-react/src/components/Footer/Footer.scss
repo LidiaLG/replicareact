@@ -27,4 +27,18 @@
         }
 }
 
+
+@media only screen and (min-width: 600px){
+    .footerContainer{
+        display: flex;
+
+        .itemFooter{
+            display: flex;
+            flex-direction: row;
+            
+        }
+    }
+}
+
+
 //ponemos el position: fixed; y el bottom: 0; para que se nos quede siempre el footer abajo
