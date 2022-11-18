@@ -1,5 +1,5 @@
 import Router from "./router/Router"
-
+import './components/Scss/resets.scss'
 
 function App() {
   return (

@@ -7,9 +7,11 @@
     flex-direction: column;
     height: 60%;
     width: 65%;
-    margin-top: 45%;
     margin-left: 30px;
-    
+    margin-top: 45%;
+        .pictureGirl{
+            display: none;
+        }
         h1{
             color: white;
             font-weight: 350;
@@ -39,3 +41,40 @@
             background-color: $color-btnhover;
         }
 }
+
+//tablet
+@media only screen and (min-width: 600px){
+    body{
+        display: flex;
+        height: 100vh;
+    }
+    .text{
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        
+        width: 100%;
+        margin: auto;
+        
+        .pictureGirl{
+            display: flex;
+            max-width: 40%;
+            margin: auto;
+            
+        }
+        .containerR{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            margin: auto;
+            p{
+                font-size: 25px;
+            }
+            .joinBtn{
+                width: 25%;
+                font-size: 15px;
+            }
+        }
+
+        }
+    }
